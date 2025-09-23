@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegan Bros</title>
+</head>
+<body onload="day(dayN); openingtimes(dayN); timeopen(hours, minutes)">
+    <nav>
+
+        <div class="nav__name" type="button" aria-label="Link til forside"><p2>VEGAN BROS</p2></div>
+        <ul class="nav__find" type="button" aria-label="Scroll til innholdet om hvor vi er og åpningstider">Finn oss</ul>
+        <ul class="nav__menu"  type="button" aria-label="Scroll til innholdet om menyen vår"">Meny</ul>
+        <ul class="nav__about" type="button" aria-label="Link til om oss side"><a href="about.html">Om oss</a></ul>
+        <ul class="nav__book" type="button" aria-label="Link til booking side"><a href="book.html">Booking</a></ul>
+
+    </nav>
+
+    <div class="content">
+        <div class="content__herologo">
+            <img src="img/Vegan Bros.png" type="image" alt="vegan bros logo" id="logo">
+        </div>
+        <div class="content__herogroup">
+            <img src="img/Forside hero.png" type="image" alt="tegning av tre dyr som griller og spiser mat" id="gang">
+        </div>
+    
+        <div class="content__header">
+            <h1>Her er vi akkurat nå:</h1>
+            <h2 class="place"></h2>
+            <h2 class="time"></h2>
+            <h2 class="timeopen"></h2>
+        </div>
+
+        <div class="content__listleft">
+            <h2>Denne uken er vi her:</h2>
+            <li>
+                <p2>Tirsdag</p2>
+                <p1>Fisketorget</p1>
+            </li>
+            <li>
+                <p2>Onsdag</p2>
+                <p1>Studentsenteret</p1>
+            </li>
+            <li>
+                <p2>Torsdag</p2>
+                <p1>Studentsenteret</p1>
+            </li>
+            <li>
+                <p2>Fredag</p2>
+                <p1>Booket. Bergenfest</p1>
+            </li>
+            <li>
+                <p2>Lørdag</p2>
+                <p1>Booket, privat</p1>
+            </li>
+            <li>
+                <p2>Søndag</p2>
+                <p1>Stengt</p1>
+            </li>
+            <li>
+                <p2>Tirsdag</p2>
+                <p1>Booket, privat</p1>
+            </li>
+        </div>
+
+        <div class="content__map">
+            <img src="img/kart med pins.png" type="image" alt="kart over hvor vi befinner oss">
+
+        </div>
+
+        <div class="content__opentimes">
+            <h2>Åpningstider</h2>
+            <li>
+                <p2>Søndag - mandag</p2>
+                <p1>Stengt</p2>
+            </li>
+            <li>
+                <p2>Tirsdag - torsdag</p2>
+                <p1>14:00 - 22:00</p1>
+            </li>
+            <li>
+                <p2>Fredag - lørdag</p2>
+                <p1>14:00 - 03:00<p1>
+            </li>
+        </div>
+
+        <div class="content__opening">
+            <h2>Hvor holder vi til?</h2>
+            <p1>Vi flytter oss rundt i Bergen by for å være tilgjengelig for alle!</p1>
+            <li>
+                <p2>Tirsdag</p2>
+                <p1>Fisketorget</p1>
+            </li>
+            <li>
+                <p2>Onsdag og torsdag</p2>
+                <p1>Studentsenteret</p1>
+            </li>
+            <li>
+                <p2>Fredag - lørdag</p2>
+                <p1>Møhlenpris ved Cornerteateret</p1>
+            </li>
+        </div>
+
+        <div class="content__imgcow">
+            <img src="img/ku griller_gjeng.png" type="image" alt="teging av ku som griller grønnsaker"  class="content__imgcow--img">
+        </div>
+
+        <div class="content__menu">
+            <h1>Meny</h1>
+            <h2>Hovedretter</h2>
+            <h2>149kr stk</h2>
+
+            <li>
+                <p2>Beyond meat burger</p2>
+                <p1>Sauce au fromage, Fromage cheddar, Poivrons, Oignons rouges, Piments forts</p1>
+            </li>
+            <li>
+                <p2>Frityrstekt “kylling” med spicy saus (hot!)</p2>
+                <p1>Sauce au fromage, Fromage cheddar, Poivrons, Oignons rouges, Piments forts, Olives noires ,Tomates, Crème sure</p1>
+            </li>
+            <li>
+                <p2>2 stk steam buns</p2>
+                <p2>pulled jackfruit eller fritert aubergine</p2>
+                <p1>Sauce au fromage, Fromage cheddar, Poivrons, Oignons rouges, Piments forts, Olives noires ,Tomates, Crème sure</p1>
+            </li>
+            <li>
+                <p2>Loaded veggie nachos</p2>
+                <p1>Sauce au fromage, Fromage cheddar, Poivrons, Oignons rouges, Piments forts, Olives noires ,Tomates, Crème sure</p1>
+            </li>
+            <div>
+                <h2>Tilbehør</h2>
+                <h2>49kr stk</h2>
+
+                <li>Fries</li>
+                <li>dirty fries</li>
+                <li>Søtpotet fries</li>
+            </div>
+        </div>
+
+        <div class="content__booking">
+            <div class="content__booking--button">
+                <p1>Vi stiller opp på alle slags arrangement! Skal du ha bursdagsfest, festival, jobblunsj eller bryllup? Ikke nøl med å ta kontakt!</p1>
+                <button type="button" aria-label="Knapp som fører deg til booking siden"><a href="book.html">Book oss</a></button>
+            </div>
+            <img src="img/Kylling gren.png" type="image" alt="tegning av kylling som spiser mais" class="content__booking--img">
+
+        </div>
+
+    </div>
+
+
+
+
+    <footer>
+        <div class="footer" aria-label="footer">
+            <div>
+                <img src="img/Vegan Bros.png" type="image" alt="vegan bros logo">
+                <p>Digg mat,<br>snill mot dyrene</p>
+            </div>
+            <div class="footer__div">
+                <label>Åpningstider</label>
+                <div class="footer__div--flex">
+                    <div class="left">
+                        <p>Man</p>
+                        <p>Tir - tor</p>
+                        <p>Fre - lør</p>
+                        <p>Søn</p>
+                    </div>
+                    <div class="right">
+                        <p>Stengt</p>
+                        <p>14-22</p>
+                        <p>14-03</p>
+                        <p>Stengt</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__div">
+                <label>Hvor er vi?</label>
+                <div class="footer__div--flex">
+                    <div class="left">
+                        <p>Tir</p>
+                        <p>Ons - tor</p>
+                        <p>Fre - lør</p>
+                    </div>
+                    <div class="right">
+                        <p>Fisketorget</p>
+                        <p>Studentsenteret</p>
+                        <p>Møhlenpris<br>(Cornerteateret)</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <label>Utforsk</label>
+                <p class="footer__menu" type="button" aria-label="knapp som fører deg til menyen vår">Meny</p>
+                <p class="book"><a href="book.html" type="button" aria-label="Knapp som fører deg til booking siden">Booking</a></p>
+                <p class="about"><a href="about.html" type="button" aria-label="Knapp som fører deg til om oss siden">Om oss</a></p>
+            </div>
+            <img src="img/Gris hvit med svart mat.png" type="image" alt="tegning av gris som spiser shawarma" id="footerpig">
+    </div>
+    </footer>
+
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
